@@ -4,3 +4,6 @@
 [submodule "ansibleplaybook-docker"]
 	path = ansibleplaybook-docker
 	url = https://github.com/salonibhatnagar/ansibleplaybook-docker.git
+[submodule "ansible-playbook-roles"]
+	path = ansible-playbook-roles
+	url = https://github.com/salonibhatnagar/ansible-playbook-roles.git
