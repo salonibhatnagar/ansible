@@ -1,0 +1,7 @@
+[winhost]
+10.1.0.6
+[winhost:vars]
+ansible_user=saloni
+ansible_password=Admin@1234567
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
