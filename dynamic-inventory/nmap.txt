@@ -1,0 +1,18 @@
+Nmap: it is a utility in linux which used to scan your system for open port. 
+
+1.)  
+apt install nmap
+
+ 2.)
+  nmap -v -n -p- -sT -sV -O --osscan-limit --max-os-tries 1 -oX $HOME/home_scan.xml 10.0.0.0/24 
+-v: verbose 
+-n : never do dns resolution 
+-p: it should look for all the open port in your system 
+-sv: determine which port are open and there version number 
+-: max os limit detection 
+• -oX- once it detect the values we have given store those result in an xml file. Plus the 10.0.0.0/24 it going to scan all the 255 network.  
+• Ip addres the port number and os name.  
+
+
+nmap -v -n -p22 -sT -sV -O --osscan-limit --max-os-tries 1 -oX $HOME/home_scan.xml 10.0.0.0/24
+
