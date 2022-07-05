@@ -1,3 +1,6 @@
 [submodule "ansible-maven-playbook"]
 	path = ansible-maven-playbook
 	url = https://github.com/salonibhatnagar/ansible-maven-playbook.git
+[submodule "ansibleplaybook-docker"]
+	path = ansibleplaybook-docker
+	url = https://github.com/salonibhatnagar/ansibleplaybook-docker.git
